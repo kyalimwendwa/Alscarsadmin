@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/home1.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Add car</title>
+  
+
+</head>
+
+<body>
+
+  <div class="column-left">
+    <div class="container">
+     <div class="logo" style="color: #1c1c1c;">ALSCARS</div>
+ 
+ 
+   
+     <div class="panel" style="margin-top: 2rem;">
+       <div class="dropdown-header" onclick="toggleDropdown(this)">
+         <svg style="margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1c1c1c" class="bi bi-house" viewBox="0 0 16 16">
+           <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+         </svg>
+         <a href="/cars">Dashboard</a>
+        
+       </div>
+      
+     </div>
+     
+     <p style="display: flex; font-size: 12px; text-align: left; color: #1c1c1c; margin-top: 1rem; margin-bottom: 1rem;">PAGES</p>
+     <div class="panel">
+       <div class="dropdown-header" onclick="toggleDropdown(this)">
+         <svg style="margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1c1c1c" class="bi bi-person" viewBox="0 0 16 16">
+           <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+         </svg>
+         <a href="">Staff</a>
+         
+       </div>
+      
+     </div>
+     
+     <div class="panel">
+       <div class="dropdown-header" onclick="toggleDropdown(this)">
+        <svg style="margin-right: 20px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1c1c1c" class="bi bi-car-front" viewBox="0 0 16 16">
+          <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+          <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+        </svg>
+         
+         <a href="/addproduct">Car collection</a>
+       </div>
+      
+     </div>
+ 
+    
+     <div class="panel">
+       <div class="dropdown-header" onclick="toggleDropdown(this)">
+         <svg style="margin-right: 20px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1c1c1c" class="bi bi-card-list" viewBox="0 0 16 16">
+           <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+           <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8m0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+         </svg>
+         
+         <a href="/orders">Orders</a>
+       </div>
+      
+     </div>
+    
+     <div class="panel">
+       <div class="dropdown-header" onclick="toggleDropdown(this)">
+         <svg style="margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1c1c1c" class="bi bi-coin" viewBox="0 0 16 16">
+           <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518z"/>
+           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+           <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11m0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12"/>
+         </svg>
+         <a href="">Finance</a>
+        
+       </div>
+       
+     </div>
+ 
+     <div class="panel">
+       <div class="dropdown-header" onclick="toggleDropdown(this)">
+        <svg  style="margin-right: 20px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1c1c1c" class="bi bi-reception-4" viewBox="0 0 16 16">
+          <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+         <a href="">Statistics</a>
+         
+       </div>
+      
+     </div>
+ 
+     <div class="panel">
+      <div class="dropdown-header" onclick="toggleDropdown(this)">
+        <svg    style="margin-right: 20px;"  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+        </svg>
+        <a href="">Messages</a>
+       
+      </div>
+      
+    </div>
+    
+    </div>
+     
+     <!-- Other panels go here -->
+   </div>
+
+
+   <% if (car) { %>
+    <div class="column-right">
+      <h1 style="display: flex; text-align: left; font-size: 24px;color: #1c1c1c; margin-bottom: 10px;">Update <%=car.name %></h1>
+
+
+      <div class="flexitems">
+        <h1 id="information">Basic Information</h1>
+        <h1 id="desc">Description</h1>
+        <h1 id="engin">Engine Performance and Efficiency</h1>
+        <h1 id="cond">Condition and History</h1>
+        <h1 id="feat">Features</h1>
+        <h1 id="pric">Pricing</h1>
+        <h1 id="med">Media</h1>
+        
+      </div>
+  
+      <form  class="signup-form" action="/updatecar/<%=car.id%>" method="POST" enctype="multipart/form-data">
+  
+        <div id="basic" class="flex" style="display: block; border-radius: 8px; border: 1px solid #acbebe; height: max-content; background-color: #fcfcfc; width: 100%; height: max-content; padding: 2rem;">
+          <div class="left" style="display: flex; gap: 1rem; width: 100%;">
+            <div class="block" style="display: block;">
+              <label for="category">Make</label>
+              <div class="select-menu">
+                  <div class="selectbtn" style="border: none;">
+                      <span class="sBtntext" style="font-size: 13px;"><%=car.make %></span>
+                      <svg style="display: none;" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#213047" class="dropdown-arrow" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                      </svg>
+                  </div>
+                  <input type="hidden" id="makeInput" name="make" />
+                  <ul class="options">
+                      <li class="option"><span class="option-text">Audi</span></li>
+                      <li class="option"><span class="option-text">Aston martin</span></li>
+                      <li class="option"><span class="option-text">BMW</span></li>
+                      <li class="option"><span class="option-text">Bentley</span></li>
+                      <li class="option"><span class="option-text">Hyundai</span></li>
+                      <li class="option"><span class="option-text">Mercedes</span></li>
+                      <li class="option"><span class="option-text">Porsche</span></li>
+                      <li class="option"><span class="option-text">Mazda</span></li>
+                      <li class="option"><span class="option-text">Toyota</span></li>
+                      <li class="option"><span class="option-text">Volkswagen</span></li>
+                  </ul>
+              </div>
+            </div>
+                
+                <div class="block" style="display: block;">
+                  <label for="name">Model</label>
+                  <input type="text" name="model" placeholder="Model of product" value="<%=car.model %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+                
+               <div class="block" style="display: block;">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Name of product" value="<%=car.name %>" readonly style="border: none; background-color: #fcfcfc;">
+               </div>
+               
+                <div class="block" style="display: block;">
+                  <label for="name">Year of Manufacture:</label>
+                  <input type="text" name="year" placeholder="Year of Manufacture:" value="<%=car.year %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+                <button id="edit-button">
+                  Edit
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fcfcfc" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                </svg></button>
+               
+          </div>
+          <div class="right" style="display: flex; gap: 1rem; margin-top: 2rem; width: 100%;">
+            
+            <div class="block" style="display: block;">
+              <label for="name">Mileage</label>
+              <input type="text" name="mileage" placeholder="" value="<%=car.mileage %>" readonly style="border: none; background-color: #fcfcfc;">
+            </div>
+              <div class="block" style="display: block;">
+                <label for="name">Body Style</label>
+                <input type="text" name="body" placeholder="SUV" value="<%=car.body %>" readonly style="border: none; background-color: #fcfcfc;">
+              </div>
+             
+              <div class="block" style="display: block;">
+                <label for="name">Seat Capacity</label>
+                <input type="text" name="seat" placeholder="2,4,5,7 seater" value="<%=car.seat %>" readonly style="border: none; background-color: #fcfcfc;">
+              </div>
+              
+              <div class="block" style="display: block;">
+                <label for="name">Drivetrain</label>
+                <input type="text" name="train" placeholder="FWD,AWD" value="<%=car.train %>" readonly style="border: none; background-color: #fcfcfc;">
+              </div>
+              
+              <div class="block" style="display: block;">
+                <label for="name">Color</label>
+                <input type="text" name="color" placeholder="" value="<%=car.color %>" readonly style="border: none; background-color: #fcfcfc;">
+              </div>
+              
+          </div>
+      </div>
+      
+ 
+         <div id="descriptio" class="flex" style="width: 100%; height: max-content; border: 1px solid #acbebe; border-radius: 8px; margin-top: 1rem; display: none; background-color: #fcfcfc;">
+           <div class="dis" style="display: flex; gap: 1rem; width: 100%; align-items: center; justify-content: center; padding: 2rem" >
+            <div class="styling" style="display: block; width: 100%;"  >
+              <label for="name">Description</label>
+              
+              <textarea type="text" name="description" readonly style="border: none; background-color: #fcfcfc;"><%=car.description %></textarea>
+            </div>
+
+            <button id="edit-bu">
+             Edit
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fcfcfc" class="bi bi-pencil-square" viewBox="0 0 16 16">
+             <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+             <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+           </svg></button>
+           </div>
+             
+          </div>
+ 
+ 
+          <div id="performance"  class="flex" style="width: 100%; height: max-content; border: 1px solid #acbebe; border-radius: 8px; margin-top: 2rem; display: none; background-color: #fcfcfc; padding: 2rem;">
+            <button id="edit-butto"  style="float: right; margin-bottom: 10px;">
+              Edit
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fcfcfc" class="bi bi-pencil-square" viewBox="0 0 16 16">
+              <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+              <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+            </svg></button>
+            <div class="dis" style="display: block;">
+              <div class="left" style="display: flex; gap: 1rem; width: 100%;"> 
+           
+             
+                <div class="block" style="display: block;">
+                 <label for="name">Type of Engine</label>
+                 <input type="text" name="engine"  value="<%=car.engine %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+                
+                <div class="block" style="display: block;">
+                 <label for="name">Engine displacement</label>
+                 <input type="text" name="enginesize" placeholder="2000 CC"  value="<%=car.enginesize %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+               
+                <div class="block" style="display: block;">
+                 <label for="name">Fuel Type</label>
+                 <input type="text" name="enginefuel" placeholder="petrol,deasel" value="<%=car.enginefuel %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+               
+                <div class="block" style="display: block;">
+                 <label for="name">Transmission</label>
+                 <input type="text" name="transmission" placeholder="Automatic or manual transmission" value="<%=car.transmission %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+                
+              </div>
+              <div class="right" style="display: flex; gap: 1rem; margin-top: 2rem; width: 100%;">
+                
+                <div class="block" style="display: block;">
+                 <label for="name">Horse Power</label>
+                 <input type="text" name="horsepower"  value="<%=car.horsepower %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+               
+                <div class="block" style="display: block;">
+                 <label for="name">Torque</label>
+                 <input type="text" name="torque"  value="<%=car.torque %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+               
+                <div class="block" style="display: block;">
+                 <label for="name">Fuel Efficiency</label>
+                 <input type="text" name="fuel"  placeholder="100km/l" value="<%=car.fuel %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+    
+                
+                <div class="block" style="display: block;">
+                 <label for="name">Acceleration (0-100kph)</label>
+                 <input type="text" name="acceleration"  placeholder="7 Secs" value="<%=car.acceleration %>" readonly style="border: none; background-color: #fcfcfc;">
+                </div>
+   
+                
+              </div>
+          </div>
+           
+
+         
+             
+             
+ 
+             
+ 
+            
+          </div>
+ 
+         <div  id="history" class="flex" style="width: 70%; height: max-content; border: 1px solid #acbebe; border-radius: 8px; display: none; background-color: #fcfcfc; padding: 2rem;">
+         <div class="dis" style="display: flex; gap: 1rem;">
+        <div class="block" style="display: block;">
+    <label for="category">Condition</label>
+    <div class="select-menu1">
+      <div class="selectbtn1" style="border: none;">
+        <span class="sBtntext1" style="font-size: 13px;" ><%=car.condition %></span>
+        <svg style="display: none;" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#213047" class="dropdown-arrow" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+        </svg>
+      </div>
+      <input type="hidden" id="conditionInput" name="condition" />
+      <ul class="options1">
+        <li class="option1"><span class="option-text">New</span></li>
+        <li class="option1"><span class="option-text">Foreign Used</span></li>
+        <li class="option1"><span class="option-text">Locally Used</span></li>
+      </ul>
+    </div>
+        </div>
+       
+        
+  <div class="block" style="display: block;">
+          <label for="name">Chassis No</label>
+          <input type="text" name="chassis" value="<%=car.chassis %>" readonly style="border: none; background-color: #fcfcfc;">
+  </div>
+
+            <button id="edit-butt"  style="float: right; margin-bottom: 10px;">
+    Edit
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fcfcfc" class="bi bi-pencil-square" viewBox="0 0 16 16">
+    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+  </svg>
+             </button>
+         </div>
+        
+             
+             
+          </div>
+ 
+          <div id="features" class="flex" style="width: 100%; height: max-content; border: 1px solid #acbebe; border-radius: 8px; margin-top: 1rem; display: none; background-color: #fcfcfc; padding: 2rem;">
+          
+            <button id="edit-b" style="float: right; margin-top: 5px; margin-bottom: 5px;">
+              Edit
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fcfcfc" class="bi bi-pencil-square" viewBox="0 0 16 16">
+              <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+              <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+            </svg></button>
+          
+             <div class="styling" style=" width: 100%;" >
+               <label for="name">Exterior Features</label>
+               
+               <textarea type="text" name="exterior" readonly style="border: none; background-color: #fcfcfc;"><%=car.exterior %></textarea>
+             </div>
+             <div class="styling" style="width: 100%;" >
+               <label for="name">Interior Features</label>
+               <textarea type="text" name="interior" readonly style="border: none; background-color: #fcfcfc;" ><%=car.interior %></textarea>
+             </div>
+             <div class="styling" style="width: 100%;" >
+               <label for="name">Safety Features</label>
+               <textarea type="text" name="safety" readonly style="border: none; background-color: #fcfcfc;"><%=car.safety %></textarea>
+
+ 
+             </div>
+
+          </div>
+ 
+          <div id="price" class="flex" style="width: 70%; height: max-content; border: 1px solid #acbebe; border-radius: 8px; margin-top: 1rem; display: none; background-color: #fcfcfc; padding: 2rem;" >
+            <button id="edit-but"  style="float: right; margin-bottom: 10px;">
+              Edit
+              <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fcfcfc" class="bi bi-pencil-square" viewBox="0 0 16 16">
+              <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+              <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+            </svg>
+            </button>
+          <div class="dis" style="display: flex; gap: 1rem;">
+            <div class="block" style="display: block;">
+              <label for="stock">Stock:</label>
+              <input type="text" name="stock"  value="<%=car.stock %>" readonly style="border: none; background-color: #fcfcfc;">
+            </div>
+           <div class="block" style="display: block;">
+            <label for="price">Price(KES):</label>
+            <input type="text" name="price" placeholder="20,000" value="<%=car.price %>" readonly style="border: none; background-color: #fcfcfc;">
+           </div>
+           
+          </div>
+                 
+                   
+                 
+                 
+                 
+   
+          </div>
+ 
+          <div id="media" class="flex" style="width: 100%; height: max-content; border: 1px solid #acbebe; border-radius: 8px; margin-top: 1rem; display: none; background-color: #fcfcfc; padding: 2rem;">
+          
+           
+             <div class="imgcontainer"  style="display: block; width: 100%; height: max-content; border-radius: 8px; padding: 1rem; ">
+               <div class="lablei" style=" display: block;background-color: #f0f2f9; border-radius: 8px; border: 3px dotted #ddd; align-items: center; justify-content: center;">
+                 <div class="cent" style="display: flex; flex-direction: column; align-items: center; justify-content: center;" >
+                   <svg  xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#457cdb" class="bi bi-cloud-arrow-up-fill" viewBox="0 0 16 16">
+                     <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2m2.354 5.146a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0z"/>
+                  </svg>
+                   <p style="font-size: 13px; color: #213047;"> Drag and Drop Images here</p>
+                       <span style="font-size: 13px;">or</span>
+                       <label for="fileInput" id="customButton" style="color: #457cdb;">Browse files</label>
+ 
+                       <!-- Hidden file input with the same ID as the for attribute in the label -->
+                       <input type="file" id="fileInput" name="images" accept="image/*" multiple required style="display: none;">
+                   
+                 </div>
+                 
+             </div>
+             
+             </div>
+             <div id="imageContainer" style="display: flex; flex-wrap: wrap; margin-top: 1rem;"></div>
+             <div id="displayimages" style="display: flex; flex-wrap: wrap; margin-top: 1rem; gap: 1rem;">
+              <!-- Render mainImage -->
+              <img src="data:image/png;base64, <%= car.mainImage %>" alt="Main Image" style="width: 100px; height: auto;">
+              
+              <!-- Render otherImages -->
+              <% car.otherImages.forEach((imageBase64, index) => { %>
+                  <img src="data:image/png;base64, <%= imageBase64 %>" alt="Other Image <%= index + 1 %>" style="width: 100px; height: auto;">
+              <% }); %>
+          </div>
+           
+ 
+          </div>
+ 
+ 
+ 
+          <button type="submit" id="btn" style="display: none;">Update Car</button>
+        
+      </form>
+  
+     
+      
+    </div>
+  
+    <% } else { %>
+      <p>Car details not found.</p>
+  <% } %>
+
+  
+  <script src="/add.js"></script>
+
+
+</body>
+</html>
+
+    
+  
+ 
+  
+  

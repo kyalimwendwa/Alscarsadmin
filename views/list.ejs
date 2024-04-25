@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>List</title>
+</head>
+<body>
+    <h1>Car Details</h1>
+    <ul>
+        <li>Exterior:
+            <ul>
+                <% exteriorArray.forEach(item => { %>
+                    <li><%= item.replace(/[\[\]\\"\']/g, '').trim() %></li>
+                <% }); %>
+            </ul>
+        </li>
+        <li>Interior:
+            <ul>
+                <% interiorArray.forEach(item => { %>
+                    <li><%= item.replace(/[\[\]\\"\']/g, '').trim() %></li>
+                <% }); %>
+            </ul>
+        </li>
+        <li>Safety:
+            <ul>
+                <% safetyArray.forEach(item => { %>
+                    <li><%= item.replace(/[\[\]\\"\']/g, '').trim() %></li>
+                <% }); %>
+            </ul>
+        </li>
+        <!-- Add other details as needed -->
+    </ul>
+</body>
+</html>
